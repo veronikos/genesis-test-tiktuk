@@ -15,5 +15,6 @@ export const Root = styled.div`
 
     h3 {
         padding-bottom: 1rem;
+        text-align: center
     }
 `;

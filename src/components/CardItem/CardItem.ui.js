@@ -20,10 +20,10 @@ export const Image = styled.img `
     align-self: center;
     justify-self: center;
     padding: 0.5rem
-`
+`;
 
 export const Title = styled.div `
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-`
+`;
