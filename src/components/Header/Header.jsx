@@ -1,10 +1,18 @@
 import React from "react";
-import {HeaderRoot} from "./Header.ui"
+import {HeaderRoot, Li} from "./Header.ui"
+import {
+    Link
+  } from "react-router-dom";
 
-function Header({ title }) {
-    return <header id="AppHeader">
-        <HeaderRoot className="title">{title}</HeaderRoot>
-    </header>
+function Header() {
+    return <nav id="AppHeader">
+        <HeaderRoot className="title">
+            <ul>
+                <Li><Link to="/">News Feed</Link></Li>
+                <Li><Link to="/about">About Me</Link></Li>
+            </ul>
+        </HeaderRoot>
+    </nav>
 }
 
 export default Header

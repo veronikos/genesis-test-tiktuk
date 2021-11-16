@@ -28,7 +28,7 @@ export const defaultData = [
         image: verticalImage
     },
     {
-        title: 'Some card 1',
+        title: 'Some card 9',
         price: '123UAH',
         image: wideImage
     },
