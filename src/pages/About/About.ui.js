@@ -12,3 +12,8 @@ export const HeaderRoot = styled.div`
 //     text-transform: uppercase;
 //     font: bold 16px/2 cursive;
 // ` ;
+
+export const H3 = styled.h3 `
+    padding: 1rem;
+    text-align: center
+`;

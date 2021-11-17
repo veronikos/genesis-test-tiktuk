@@ -12,7 +12,9 @@ function CardsList({data, title}) {
             key={`${cardItemData.title}-${cardItemData.price}`}
             title={cardItemData.title}
             image={cardItemData.image}
-            price={cardItemData.price}
+            avatar={cardItemData.avatar}
+            likes={cardItemData.likes}
+            postText={cardItemData.postText}
         />
         )) : 'No items'}
         </div>
