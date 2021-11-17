@@ -14,6 +14,7 @@ function CardsList({data, title}) {
             image={cardItemData.image}
             avatar={cardItemData.avatar}
             likes={cardItemData.likes}
+            hashtags={cardItemData.hashtags}
             postText={cardItemData.postText}
         />
         )) : 'No items'}

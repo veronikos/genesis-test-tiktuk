@@ -63,6 +63,13 @@
     font-weight: bold;
 }
 
+.hashtags {
+    color: rgb(90, 8, 90);
+    font-weight: 300;
+    display: inline-block;
+    cursor: pointer;
+}
+
 .description{
     margin: 10px 0;
     font-size: 14px;

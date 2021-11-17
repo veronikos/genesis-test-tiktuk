@@ -8,7 +8,7 @@ import save from "./images/save.svg";
 import smile from "./images/smile.svg";
 import "./CardItem.css"
 
-function CardItem({ avatar = imagePlaceholder, title, image = imagePlaceholder, postText, likes}) {
+function CardItem({ avatar = imagePlaceholder, title, image = imagePlaceholder, hashtags, postText, likes}) {
   return (     
       <div className="post">
       <div className="info">
@@ -27,7 +27,7 @@ function CardItem({ avatar = imagePlaceholder, title, image = imagePlaceholder, 
                         <img src={save} className="save icon" alt=""/>
                     </div>
                     <p className="likes">{likes} likes</p>
-                    <p className="description"><span>{title}</span>{postText}</p>
+                    <p className="description"><span>{title}</span><p className="hashtags">{hashtags}</p> {postText}</p>
                     <p className="post-time">2 minutes ago</p>
                 </div>
                 <div className="comment-wrapper">
