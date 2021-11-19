@@ -19,15 +19,15 @@ function CardItem({ avatar = imagePlaceholder, title, image = imagePlaceholder, 
                     <img src={options} className="options" alt=""/>
                 </div>
                 <img src={image} className="post-image" alt=""/>
-                <div class="post-content">
-                    <div class="reaction-wrapper">
+                <div className="post-content">
+                    <div className="reaction-wrapper">
                         <img src={like} className="icon" alt=""/>
                         <img src={comment} className="icon" alt=""/>
                         <img src={send} className="icon" alt=""/>
                         <img src={save} className="save icon" alt=""/>
                     </div>
                     <p className="likes">{likes} likes</p>
-                    <p className="description"><span>{title}</span><p className="hashtags">{hashtags}</p> {postText}</p>
+                    <p className="description"><span>{title}</span><span className="hashtags">{hashtags}</span>{postText}</p>
                     <p className="post-time">2 minutes ago</p>
                 </div>
                 <div className="comment-wrapper">
