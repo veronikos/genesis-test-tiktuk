@@ -6,8 +6,8 @@ import axios from "axios";
 function Header() {
   const [data, setData] = useState("");
   const getData = () => {
-    axios.get("https://swapi.dev/api/people").then((response) => {
-      setData(response.data.results[Math.floor(Math.random() * 10)].name);
+    axios.get(`https://swapi.dev/api/people/${Math.floor(Math.random() * 82)}`).then((response) => {
+      setData(response.data.name);
       console.log(data);
     });
   };
